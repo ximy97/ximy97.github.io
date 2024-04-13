@@ -1,0 +1,129 @@
+@import url("https://use.typekit.net/vnv7doa.css");
+
+
+a {
+    color: rgb(251, 201, 62);
+    text-decoration: none;
+    font-size:30px;
+    padding: 0px;
+    margin: 20px;
+}
+
+
+
+a:hover{
+    background-color: rgb(255, 158, 68);
+   
+}
+
+
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url("../exercise 5/images/jdm\ orange\ car.jpeg"); 
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-content {
+    text-transform: uppercase;
+    text-align: center;
+font-size: 100px;
+color: rgb(255, 247, 225);
+
+}   
+
+.content h1 {
+font-family: "new-astro-soft", sans-serif;
+font-weight: 300;
+font-style: normal;
+text-transform: uppercase;
+text-align: center;
+font-size: 60px;
+color: rgb(0, 0, 0);
+
+}
+
+.content p {
+font-family: "oswald", sans-serif;
+font-weight: 200;
+font-style: normal;
+text-align: center;
+font-size: 40px;
+color: rgb(0, 0, 0);
+padding-top: 0%;
+margin-top: 0px;
+
+}
+.navigation {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    font-size: larger;
+    
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0%;
+    display: grid; /* Use CSS Grid */
+    grid-auto-flow: column; /* Arrange items in a column (side by side) */
+    grid-gap: 60px; /* Add spacing between list items */
+}
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+}
+
+/* Styles for Page 2: Brands */
+.brands-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.brand img {
+    max-width: 100%;
+}
+
+/* Styles for Page 3: Models */
+.models-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.models img {
+    max-width: 100%;
+}
